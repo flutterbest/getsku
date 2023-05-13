@@ -107,8 +107,8 @@ GM_addStyle(`
 // 当前域名
 var currentDomain = window.location.hostname;
 // UI
-var appendHtml = `<ul id="box" style="position:fixed; top:200px; left:0; z-index:9999; text-align:center;background:rgba(0,0,0,.5);padding:10px">
-    <li style="color:#fff;">当前sku<span id="j_count">0</span>个</li>
+var appendHtml = `<ul id="box" style="cursor:move;position:fixed; top:200px; left:0; z-index:9999; text-align:center;background:rgba(0,0,0,.5);padding:10px">
+    <li style="color:#fff;">已拿到<span id="j_count">0</span>个</li>
     <li style="margin-top:10px"><button id="j_watch" class="plugin-btn plugin-btn-primary" type="button">开始抓取</button></li>
     <li style="margin-top:10px"><button id="j_clear" class="plugin-btn plugin-btn-danger" type="button">清空SKU</button></li>
     <li style="margin-top:10px"><button id="j_copy" class="plugin-btn plugin-btn-success" type="button">复制SKU</button></li>

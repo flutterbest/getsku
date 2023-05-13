@@ -6,6 +6,9 @@
 // @author       wangzhan
 // @match        *://list.jd.com/*
 // @match        *://*.1688.com/*
+// @homepageURL  https://github.com/flutterbest/getsku
+// @supportURL   https://github.com/flutterbest/getsku/issues/
+// @updateURL    https://github.com/flutterbest/getsku/jd-script.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
